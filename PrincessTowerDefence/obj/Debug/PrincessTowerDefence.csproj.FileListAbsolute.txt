@@ -1,1 +1,20 @@
 c:\users\michał\documents\visual studio 2015\Projects\PrincessTowerDefence\PrincessTowerDefence\bin\Debug\PrincessTowerDefence.exe.config
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\bin\Debug\PrincessTowerDefence.exe.config
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\bin\Debug\PrincessTowerDefence.exe
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\bin\Debug\PrincessTowerDefence.pdb
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\PrincessTowerDefence.csprojResolveAssemblyReference.cache
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\View\MainWindow.g.cs
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\App.g.cs
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\PrincessTowerDefence_MarkupCompile.cache
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\PrincessTowerDefence_MarkupCompile.lref
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\View\MainWindow.baml
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\PrincessTowerDefence.g.resources
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\PrincessTowerDefence.Properties.Resources.resources
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\PrincessTowerDefence.csproj.GenerateResource.Cache
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\PrincessTowerDefence.exe
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\PrincessTowerDefence.pdb
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\View\Board.g.cs
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\View\ControlPanel.g.cs
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\View\Board.baml
+C:\Users\Michał\Desktop\princessTD\PrincessTowerDefence\obj\Debug\View\ControlPanel.baml
