@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrincessTowerDefence.Model
 {
-    public class PrincessModel
+    public class PrincessModel : CreatureModel
     {
         public int shootDelay;
         public int range;

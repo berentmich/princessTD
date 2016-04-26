@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace PrincessTowerDefence.Model
 {
-    public class BoardModel
+    public class CreatureModel
     {
-        public int[,] BoardGrid;
-        public BoardModel()
-        {
-            BoardGrid = new int[14, 14];
-        }
+        public int posX, posY;
     }
 }
