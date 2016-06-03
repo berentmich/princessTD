@@ -13,5 +13,7 @@ namespace PrincessTowerDefence.Model
         public int Top { get; set; }
         public int Left { get; set; }
         public Brush Brush { get; set; }
+        public int Width { get; set; }
+        public int Height { get; set; }
     }
 }

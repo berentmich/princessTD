@@ -74,6 +74,11 @@
     <Compile Include="Controller\BoardController.cs" />
     <Compile Include="Controller\ControllerBase.cs" />
     <Compile Include="Controller\ControlPanelController.cs" />
+    <Compile Include="Controller\PositioningCommand.cs" />
+    <Compile Include="Controller\RelayCommand.cs" />
+    <Compile Include="Model\ArsenalModel.cs" />
+    <Compile Include="Model\BrushesPicker.cs" />
+    <Compile Include="Model\BulletModel.cs" />
     <Compile Include="Model\CreatureModel.cs" />
     <Compile Include="Model\GameModel.cs" />
     <Compile Include="Model\LevelModel.cs" />
@@ -124,6 +129,17 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\blue_princ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pink_princ.png" />
+    <Resource Include="Images\yellow_princ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\minionek.png" />
+    <Resource Include="Images\spider.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

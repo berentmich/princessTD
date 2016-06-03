@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrincessTowerDefence.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,11 @@ namespace PrincessTowerDefence
         public MainWindow()
         {
             InitializeComponent();
+            BoardController boardController = new BoardController();
+            ControlPanelController controlPanelController = new ControlPanelController();
+            boardController.controlPanel = controlPanelController;
+            ((UserControl)(((Grid)(this.Content)).Children[0])).DataContext = controlPanelController;
+            ((UserControl)(((Grid)(this.Content)).Children[1])).DataContext = boardController;
         }
     }
 }

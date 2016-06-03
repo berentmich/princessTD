@@ -24,7 +24,12 @@ namespace PrincessTowerDefence.View
         public Board()
         {
             InitializeComponent();
-            DataContext = new BoardController();
+        }
+
+        private void Canvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Point p = e.GetPosition(null);
+            ((BoardController)this.DataContext).PlacePrincess((int)p.X, (int)p.Y);
         }
     }
 }

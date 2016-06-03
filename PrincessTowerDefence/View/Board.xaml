@@ -10,12 +10,12 @@
         <ItemsControl ItemsSource="{Binding Tiles}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <Canvas  Width="560" Height="560"  />
+                    <Canvas  Width="560" Height="560" MouseLeftButtonUp="Canvas_MouseLeftButtonDown" Background="{Binding Background}"/>
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Rectangle Fill="{Binding Brush}" Width="40" Height="40" />
+                    <Ellipse Fill="{Binding Brush}" Width="{Binding Width}" Height="{Binding Height}" />
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
             <ItemsControl.ItemContainerStyle>

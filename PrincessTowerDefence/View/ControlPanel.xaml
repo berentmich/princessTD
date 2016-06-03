@@ -9,17 +9,30 @@
     <Grid>
         <StackPanel Background="#ffb6da" Orientation="Vertical" >
             <StackPanel Margin="0,50,0,0" Orientation="Horizontal">
-                <Button Width="100" Height="50"></Button>
-                <Label Height="50" TextBlock.FontSize="30">5</Label>
+                <Button Width="100" Height="75" Command="{Binding ChooseBlue}">
+                    <StackPanel>
+                        <Image Source="/PrincessTowerDefence;component/Images/blue_princ.png" />
+                    </StackPanel>
+                </Button>
+                <Label Height="50" TextBlock.FontSize="30" Content="{Binding Path=Arsenal.BluePrincesses.Count}"></Label>
             </StackPanel>
             <StackPanel Margin="0,50,0,0" Orientation="Horizontal">
-                <Button Width="100" Height="50"></Button>
-                <Label Height="50" TextBlock.FontSize="30">5</Label>
+                <Button Width="100" Height="75" Command="{Binding ChoosePink}">
+                    <StackPanel>
+                        <Image Source="/PrincessTowerDefence;component/Images/pink_princ.png" />
+                    </StackPanel>
+                </Button>
+                <Label Height="50" TextBlock.FontSize="30" Content="{Binding Path=Arsenal.PinkPrincesses.Count}"></Label>
             </StackPanel>
             <StackPanel Margin="0,50,0,0" Orientation="Horizontal">
-                <Button Width="100" Height="50"></Button>
-                <Label Height="50" TextBlock.FontSize="30">5</Label>
+                <Button Width="100" Height="75" Command="{Binding ChooseYellow}">
+                    <StackPanel>
+                        <Image Source="/PrincessTowerDefence;component/Images/yellow_princ.png" />
+                    </StackPanel>
+                </Button>
+                <Label Height="50" TextBlock.FontSize="30" Content="{Binding Path=Arsenal.YellowPrincesses.Count}"></Label>
             </StackPanel>
+            <TextBox Margin="50,50,50,50" Height="50" Text="{Binding Path=TimeLeft}"></TextBox>
         </StackPanel>
     </Grid>
 </UserControl>

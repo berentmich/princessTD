@@ -24,7 +24,6 @@ namespace PrincessTowerDefence.View
         public ControlPanel()
         {
             InitializeComponent();
-            DataContext = new ControlPanelController();
         }
     }
 }

@@ -30,12 +30,21 @@ namespace PrincessTowerDefence.Model
 
         public void moveForward(BoardModel board)
         {
-            if(posY < 13)
-            if(board.BoardGrid[posX , posY +1] == 2 || board.BoardGrid[posX, posY + 1] == 4 )
+            if (posX < 13)
             {
-                board.BoardGrid[posX, posY] = 2;
-                posY++;
-                board.BoardGrid[posX, posY] = 3;
+                if (board.BoardGrid[posX + 1, posY] == 2 || board.BoardGrid[posX + 1, posY] == 4)
+                {
+                    board.BoardGrid[posX, posY] = 2;
+                    posX++;
+                    board.BoardGrid[posX, posY] = 3;
+                    return;
+                }
+                if (board.BoardGrid[posX, posY + 1] == 2 || board.BoardGrid[posX + 1, posY] == 4)
+                {
+                    board.BoardGrid[posX, posY] = 2;
+                    posY++;
+                    board.BoardGrid[posX, posY] = 3;
+                }
             }
         }
     }
