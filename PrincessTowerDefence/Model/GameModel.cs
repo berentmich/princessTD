@@ -45,7 +45,7 @@ namespace PrincessTowerDefence.Model
 
             enemySpawnTimer = new DispatcherTimer();
             enemySpawnTimer.Tick += enemySpawnTimerTick;
-            enemySpawnTimer.Interval = new TimeSpan(0, 0, 5);
+            enemySpawnTimer.Interval = new TimeSpan(0, 0, 2);
         }
 
         private void enemySpawnTimerTick(object sender, EventArgs e)

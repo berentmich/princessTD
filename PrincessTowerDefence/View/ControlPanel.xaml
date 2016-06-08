@@ -32,7 +32,7 @@
                 </Button>
                 <Label Height="50" TextBlock.FontSize="30" Content="{Binding Path=Arsenal.YellowPrincesses.Count}"></Label>
             </StackPanel>
-            <TextBox Margin="50,50,50,50" Height="50" Text="{Binding Path=TimeLeft}"></TextBox>
+            <TextBox Margin="50,50,50,50" Height="25" Width="25" Text="{Binding Path=TimeLeft}" IsEnabled="False" FontSize="20"></TextBox>
         </StackPanel>
     </Grid>
 </UserControl>
